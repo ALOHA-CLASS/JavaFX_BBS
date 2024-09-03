@@ -17,6 +17,7 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	public Board select(int no) {
+		boardDAO.view(no);
 		Board board = boardDAO.select(no);
 		return board;
 	}

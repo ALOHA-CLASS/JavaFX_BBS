@@ -1,14 +1,11 @@
 package application.DTO;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
+//@Data
+//@NoArgsConstructor
+//@AllArgsConstructor
 public class Board {
 	
 	private int no;
@@ -67,6 +64,13 @@ public class Board {
 
 	public Date getRegDate() {
 		return regDate;
+	}
+	
+	public String getDate() {
+		Date regDate = getRegDate();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
+		String date = sdf.format(regDate);
+		return date;
 	}
 
 	public void setRegDate(Date regDate) {
