@@ -36,7 +36,7 @@ public class BoardDAO extends JDBC {
 	}
 	
 	public Board select(int no) {
-		Board board = null;
+		Board board = new Board();
 		String sql = " SELECT * "
 				   + " FROM board "
 				   + " WHERE no = ? ";
@@ -115,8 +115,29 @@ public class BoardDAO extends JDBC {
 		}
 		return result;
 	}
+	
+	
+	public int view(int no) {
+		int result = 0;
+		
+		String sql = " UPDATE board"
+				   + "    SET view = view + 1 "
+				   + "		 ,upd_date = now() "
+				   + " WHERE no = ? ";
+		try {
+			psmt = con.prepareStatement(sql);
+			psmt.setInt(1, no );
+			result = psmt.executeUpdate();
+		} catch (Exception e) {
+			System.err.println("update view faild");
+		}
+		return result;
+	}
+	
+	
 
 }
+
 
 
 

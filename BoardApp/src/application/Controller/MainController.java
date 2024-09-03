@@ -20,8 +20,17 @@ public class MainController {
     
     @FXML
     void exit(ActionEvent event) {
-
+    	Main.exit();
     }
 
 
 }
+
+
+
+
+
+
+
+
+

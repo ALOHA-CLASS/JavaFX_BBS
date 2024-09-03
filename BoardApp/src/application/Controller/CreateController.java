@@ -1,6 +1,9 @@
 package application.Controller;
 
 import application.Main;
+import application.DTO.Board;
+import application.Service.BoardService;
+import application.Service.BoardServiceImpl;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -24,9 +27,16 @@ public class CreateController {
     @FXML
     private TextField tfWriter;
 
+    private BoardService boardService = new BoardServiceImpl();
+    
     @FXML
-    void create(ActionEvent event) {
-
+    void create(ActionEvent event) throws Exception {
+    	Board board = new Board(tfTitle.getText(), tfWriter.getText(), taContent.getText());
+    	int result = boardService.insert(board);
+    	if( result > 0 ) {
+    		System.out.println("insert data OK!");
+    		Main.setRoot("UI/List");
+    	}
     }
 
     @FXML
@@ -35,3 +45,14 @@ public class CreateController {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+

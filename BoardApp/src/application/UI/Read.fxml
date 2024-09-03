@@ -49,5 +49,15 @@
             <Font size="20.0" />
          </font>
       </TextArea>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="656.0" layoutY="30.0" prefHeight="54.0" prefWidth="118.0" text="views : " textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbViews" alignment="CENTER" contentDisplay="CENTER" layoutX="748.0" layoutY="30.0" prefHeight="54.0" prefWidth="118.0" text="0" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
