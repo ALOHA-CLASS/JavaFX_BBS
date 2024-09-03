@@ -34,17 +34,17 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="tfTitle" layoutX="223.0" layoutY="96.0" prefHeight="54.0" prefWidth="633.0" promptText="Please Enter Title">
+      <TextField fx:id="tfTitle" editable="false" layoutX="223.0" layoutY="96.0" prefHeight="54.0" prefWidth="633.0">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <TextField fx:id="tfWriter" layoutX="222.0" layoutY="175.0" prefHeight="54.0" prefWidth="633.0" promptText="Please Enter Writer">
+      <TextField fx:id="tfWriter" editable="false" layoutX="222.0" layoutY="175.0" prefHeight="54.0" prefWidth="633.0">
          <font>
             <Font size="20.0" />
          </font>
       </TextField>
-      <TextArea fx:id="taContent" layoutX="31.0" layoutY="253.0" prefHeight="228.0" prefWidth="823.0" promptText="Please Enter Content">
+      <TextArea fx:id="taContent" editable="false" layoutX="31.0" layoutY="253.0" prefHeight="228.0" prefWidth="823.0">
          <font>
             <Font size="20.0" />
          </font>
