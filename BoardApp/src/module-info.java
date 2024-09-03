@@ -9,4 +9,5 @@ module BoardApp {
 	opens application to javafx.graphics, javafx.fxml, java.sql;
 	opens application.Controller to javafx.fxml;
 	opens application.DTO to javafx.base;
+	
 }
