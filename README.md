@@ -6,12 +6,17 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </div>
 
-
 <div align="center">
   <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
   <img src="https://img.shields.io/badge/Java-v17-007396.svg" alt="Java v17">
   <img src="https://img.shields.io/badge/JavaFX-v22-4682B4.svg" alt="JavaFX v22">
+</div>
+<br><br>
+<div align="center">
+  <a href="https://github.com/ALOHA-CLASS/JavaFX_BBS/blob/main/PREVIEW/README.md">
+    <img src="https://img.shields.io/badge/미리보기-royalblue?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+  </a>
 </div>
 
 
