@@ -1,9 +1,20 @@
 # JavaFX 기반 BBS 시스템
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/JavaFX-4682B4?style=for-the-badge&logo=java&logoColor=white" alt="JavaFX">
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+</div>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![JavaFX](https://img.shields.io/badge/JavaFX-4682B4?style=for-the-badge&logo=java&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+<div align="center">
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome">
+  <img src="https://img.shields.io/badge/Java-v17-007396.svg" alt="Java v17">
+  <img src="https://img.shields.io/badge/JavaFX-v22-4682B4.svg" alt="JavaFX v22">
+</div>
+
+
 
 ## 프로젝트 소개
 
