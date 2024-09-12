@@ -12,11 +12,16 @@
   <img src="https://img.shields.io/badge/Java-v17-007396.svg" alt="Java v17">
   <img src="https://img.shields.io/badge/JavaFX-v22-4682B4.svg" alt="JavaFX v22">
 </div>
+
 <br><br>
+
 <div align="center">
   <a href="https://github.com/ALOHA-CLASS/JavaFX_BBS/blob/main/PREVIEW/README.md">
     <img src="https://img.shields.io/badge/미리보기-royalblue?style=for-the-badge&logo=java&logoColor=white" alt="Java">
   </a>
+</div>
+<div align="center">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FALOHA-CLASS%2FJavaFX_BBS&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=조회수&edge_flat=false" alt="views"/>
 </div>
 
 
