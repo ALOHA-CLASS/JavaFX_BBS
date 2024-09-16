@@ -65,3 +65,8 @@
 ## 라이선스
 
 이 프로젝트는 MIT 라이선스에 따라 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하십시오.
+
+
+
+<br><br>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FALOHA-CLASS&count_bg=%23252090&title_bg=%23FF0000&icon=youtubetv.svg&icon_color=%23E7E7E7&title=ALOLA-CLASS&edge_flat=false)](https://hits.seeyoufarm.com)
